@@ -1,19 +1,42 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Button styles</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+}
 
-  <!-- This <div> is just so each button will be on its own line -->
-  <div>
-    <a class="btn" href="#">Primary button</a>
-  </div>
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  <!-- Add all other button styles here with both the <div> & <a> tags -->
+a {
+  text-decoration: none;
 
-</body>
-</html>
+}
+
+.warning {
+  font-size: 3em;
+}
+
+.primary {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: em;
+  background-color: #333 ;
+  border-radius: 8px;
+  max-width: 20em;
+
+}
+
+.ghost {
+
+}
+
+.subtle {
+
+}
+
+div {
+  display: block;
+  padding: .5rem;
+  text-align: center;
+}
