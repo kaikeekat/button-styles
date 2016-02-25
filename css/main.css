@@ -8,14 +8,46 @@ html {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-div :nth-child(4) {
-  color: black;
+.btn {
+  color: white;
+  padding: 0.4em;
+  background-color: #333;
+  border-radius: 8px;
+  max-width: 20em;
+  font-size: 1rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 3px solid #000;
+  border-radius: 8px;
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+  border-radius: 8px;
+  color: #fff;
 }
 
 div {
-  padding: .5rem;
-  text-align: center;
+  display: block;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+  padding: .3em;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  padding: .75rem;
 }
